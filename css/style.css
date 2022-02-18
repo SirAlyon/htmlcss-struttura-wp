@@ -1,3 +1,4 @@
+/* Common */
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
@@ -7,6 +8,14 @@ body{
     margin: 0 100px;
     
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
 
 #site_header{
     height: 120px;
@@ -23,8 +32,10 @@ body{
     background-color:bisque;
 }
 
+/* Main */
+
 .content{
-    height: 800px;
+    height: 600px;
     background-color: rgba(253, 255, 165, 1);
     position: relative;
     
@@ -44,3 +55,28 @@ body{
     background-color: aqua;
     margin: 20px 0px;
 }
+
+.articles{
+    height: 600px;
+    background-color: rgb(251, 255, 0);
+}
+
+.article-img{
+    width: 25%;
+    height: 230px;
+    background-color: brown;
+    float: left;
+}
+
+#site_footer{
+    height: 70px;
+    background-color: blueviolet;
+}
+
+.row > div{
+    width: 50%;
+    height: 230px;
+    background-color: rgb(255, 184, 184);
+    float: left;
+}
+/* Footer */
