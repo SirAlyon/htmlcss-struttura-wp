@@ -15,6 +15,11 @@ body{
     clear: both;
 }
 
+
+/* Uility */
+
+
+
 /* Header */
 
 #site_header{
@@ -48,6 +53,9 @@ body{
     position: absolute;
     left: 50px;
     bottom: 100px;
+    line-height: 150px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .leadership{
@@ -58,25 +66,61 @@ body{
 
 .articles{
     height: 600px;
-    background-color: rgb(251, 255, 0);
+}
+
+.row{
+    padding: 5px 0px 10px 0px;
 }
 
 .article-img{
-    width: 25%;
-    height: 230px;
+    width: 23%;
+    height: 225px;
     background-color: brown;
+    float: left;
+    border-radius: 15px;
+}
+
+.row > div{
+    width: 50%;
+    height: 225px;
+    background-color: rgb(255, 184, 184);
+    float: left;
+    margin: 0 2%;
+    border-radius: 15px;
+}
+
+.article-text{
+    width: 23%;
+    height: 350px;
+    background-color: rgb(95, 235, 102);
     float: left;
 }
 
+.row2>div{
+    width: 50%;
+    height: 350px;
+    background-color: rgb(153, 126, 252);
+    float: left;
+    margin: 0 2%;
+}
+
+.row2{
+   
+}
+
+/* Footer */
 #site_footer{
     height: 70px;
     background-color: blueviolet;
 }
 
-.row > div{
-    width: 50%;
-    height: 230px;
-    background-color: rgb(255, 184, 184);
-    float: left;
+footer>div span:first-child{
+    color: red;
 }
-/* Footer */
+
+footer>div{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 70px;
+    vertical-align: middle;
+}
