@@ -1,0 +1,46 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0 100px;
+    
+}
+
+#site_header{
+    height: 120px;
+    background-color: white;
+}
+
+.logo{
+    height: 50%;
+    background-color: yellow;
+}
+
+.menu{
+    height: 50%;
+    background-color:bisque;
+}
+
+.content{
+    height: 800px;
+    background-color: rgba(253, 255, 165, 1);
+    position: relative;
+    
+}
+
+.content-text{
+    height: 150px;
+    width: 55%;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+}
+
+.leadership{
+    height: 60px;
+    background-color: aqua;
+    margin: 20px 0px;
+}
